@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/hashicorp/terraform/addrs"
 	"github.com/hashicorp/terraform/providers"
 	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/tfdiags"
 )
 
 // EvalImportState is an EvalNode implementation that performs an

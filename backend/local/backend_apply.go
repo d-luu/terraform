@@ -7,13 +7,13 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/hashicorp/errwrap"
 	"github.com/hashicorp/terraform/backend"
 	"github.com/hashicorp/terraform/states"
 	"github.com/hashicorp/terraform/states/statefile"
 	"github.com/hashicorp/terraform/states/statemgr"
 	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
 )
 
 func (b *Local) opApply(

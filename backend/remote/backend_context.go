@@ -6,6 +6,7 @@ import (
 	"log"
 	"strings"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/hashicorp/errwrap"
 	tfe "github.com/hashicorp/go-tfe"
 	"github.com/hashicorp/hcl/v2"
@@ -15,7 +16,6 @@ import (
 	"github.com/hashicorp/terraform/configs"
 	"github.com/hashicorp/terraform/states/statemgr"
 	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

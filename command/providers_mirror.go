@@ -9,10 +9,10 @@ import (
 	"path/filepath"
 
 	"github.com/apparentlymart/go-versions/versions"
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/hashicorp/go-getter"
 	"github.com/hashicorp/terraform/httpclient"
 	"github.com/hashicorp/terraform/internal/getproviders"
-	"github.com/hashicorp/terraform/tfdiags"
 )
 
 // ProvidersMirrorCommand is a Command implementation that implements the

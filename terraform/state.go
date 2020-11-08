@@ -16,6 +16,7 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/hashicorp/errwrap"
 	multierror "github.com/hashicorp/go-multierror"
 	uuid "github.com/hashicorp/go-uuid"
@@ -27,7 +28,6 @@ import (
 	"github.com/hashicorp/terraform/configs/configschema"
 	"github.com/hashicorp/terraform/configs/hcl2shim"
 	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/tfdiags"
 	tfversion "github.com/hashicorp/terraform/version"
 	"github.com/mitchellh/copystructure"
 	"github.com/zclconf/go-cty/cty"

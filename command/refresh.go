@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/hashicorp/terraform/addrs"
 	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/tfdiags"
 )
 
 // RefreshCommand is a cli.Command implementation that refreshes the state

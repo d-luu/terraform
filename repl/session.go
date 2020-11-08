@@ -7,11 +7,11 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 	"github.com/hashicorp/terraform/configs/hcl2shim"
 	"github.com/hashicorp/terraform/lang"
-	"github.com/hashicorp/terraform/tfdiags"
 )
 
 // ErrSessionExit is a special error result that should be checked for

@@ -5,10 +5,10 @@ import (
 	"sort"
 	"time"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/hashicorp/terraform/addrs"
 	"github.com/hashicorp/terraform/states"
 	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/tfdiags"
 
 	backendLocal "github.com/hashicorp/terraform/backend/local"
 )

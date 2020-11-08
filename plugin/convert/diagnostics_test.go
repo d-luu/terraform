@@ -4,9 +4,9 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/google/go-cmp/cmp"
 	proto "github.com/hashicorp/terraform/internal/tfplugin5"
-	"github.com/hashicorp/terraform/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

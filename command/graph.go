@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/tfdiags"
 
 	"github.com/hashicorp/terraform/backend"
 	"github.com/hashicorp/terraform/dag"

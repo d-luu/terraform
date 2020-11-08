@@ -8,12 +8,12 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	version "github.com/hashicorp/go-version"
 	"github.com/hashicorp/terraform/configs"
 	"github.com/hashicorp/terraform/configs/configload"
 	"github.com/hashicorp/terraform/internal/copydir"
 	"github.com/hashicorp/terraform/registry"
-	"github.com/hashicorp/terraform/tfdiags"
 )
 
 func TestDirFromModule_registry(t *testing.T) {

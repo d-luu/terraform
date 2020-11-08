@@ -3,9 +3,9 @@ package cliconfig
 import (
 	"fmt"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/hashicorp/hcl"
 	hclast "github.com/hashicorp/hcl/hcl/ast"
-	"github.com/hashicorp/terraform/tfdiags"
 )
 
 // ProviderInstallation is the structure of the "provider_installation"

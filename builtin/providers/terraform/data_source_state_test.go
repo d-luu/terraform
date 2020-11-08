@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	"github.com/apparentlymart/go-dump/dump"
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/hashicorp/terraform/backend"
 	"github.com/hashicorp/terraform/configs/configschema"
 	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

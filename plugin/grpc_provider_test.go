@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/golang/mock/gomock"
 	"github.com/google/go-cmp/cmp"
 	"github.com/hashicorp/terraform/configs/hcl2shim"
 	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 
 	proto "github.com/hashicorp/terraform/internal/tfplugin5"
