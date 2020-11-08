@@ -13,6 +13,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	getter "github.com/hashicorp/go-getter"
 	"github.com/hashicorp/terraform-svchost/disco"
 	"github.com/hashicorp/terraform/addrs"
@@ -20,7 +21,6 @@ import (
 	"github.com/hashicorp/terraform/internal/getproviders"
 	"github.com/hashicorp/terraform/internal/providercache"
 	discovery "github.com/hashicorp/terraform/plugin/discovery"
-	"github.com/hashicorp/terraform/tfdiags"
 	"github.com/hashicorp/terraform/version"
 	"github.com/mitchellh/cli"
 )

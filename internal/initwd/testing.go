@@ -4,9 +4,9 @@ import (
 	"github.com/hashicorp/terraform/registry"
 	"testing"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/hashicorp/terraform/configs"
 	"github.com/hashicorp/terraform/configs/configload"
-	"github.com/hashicorp/terraform/tfdiags"
 )
 
 // LoadConfigForTests is a convenience wrapper around configload.NewLoaderForTests,

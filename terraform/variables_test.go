@@ -3,8 +3,8 @@ package terraform
 import (
 	"testing"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/hashicorp/terraform/tfdiags"
 
 	"github.com/go-test/deep"
 	"github.com/zclconf/go-cty/cty"

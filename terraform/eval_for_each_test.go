@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hcltest"
-	"github.com/hashicorp/terraform/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

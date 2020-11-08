@@ -14,6 +14,7 @@ import (
 	"github.com/posener/complete"
 	"github.com/zclconf/go-cty/cty"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/hashicorp/terraform/addrs"
 	"github.com/hashicorp/terraform/backend"
 	backendInit "github.com/hashicorp/terraform/backend/init"
@@ -23,7 +24,6 @@ import (
 	"github.com/hashicorp/terraform/internal/providercache"
 	"github.com/hashicorp/terraform/states"
 	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
 	tfversion "github.com/hashicorp/terraform/version"
 )
 

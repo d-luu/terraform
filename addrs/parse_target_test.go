@@ -3,10 +3,10 @@ package addrs
 import (
 	"testing"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/go-test/deep"
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
-	"github.com/hashicorp/terraform/tfdiags"
 )
 
 func TestParseTarget(t *testing.T) {

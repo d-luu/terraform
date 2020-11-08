@@ -7,7 +7,7 @@ import (
 	"github.com/hashicorp/hcl/v2"
 	"github.com/mitchellh/colorstring"
 
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/d-luu/terraform-common/tfdiags"
 )
 
 func TestDiagnosticWarningsCompact(t *testing.T) {

@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/hashicorp/terraform/command/clistate"
 	"github.com/hashicorp/terraform/states/statefile"
-	"github.com/hashicorp/terraform/tfdiags"
 	"github.com/mitchellh/cli"
 	"github.com/posener/complete"
 )

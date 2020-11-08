@@ -12,6 +12,7 @@ import (
 	"sync"
 	"time"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	tfe "github.com/hashicorp/go-tfe"
 	version "github.com/hashicorp/go-version"
 	svchost "github.com/hashicorp/terraform-svchost"
@@ -21,7 +22,6 @@ import (
 	"github.com/hashicorp/terraform/states/remote"
 	"github.com/hashicorp/terraform/states/statemgr"
 	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
 	tfversion "github.com/hashicorp/terraform/version"
 	"github.com/mitchellh/cli"
 	"github.com/mitchellh/colorstring"

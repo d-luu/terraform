@@ -6,9 +6,9 @@ import (
 
 	"golang.org/x/net/idna"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/hashicorp/hcl/v2"
 	svchost "github.com/hashicorp/terraform-svchost"
-	"github.com/hashicorp/terraform/tfdiags"
 )
 
 // Provider encapsulates a single provider type. In the future this will be

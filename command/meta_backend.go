@@ -13,6 +13,7 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/hashicorp/errwrap"
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hcldec"
@@ -22,7 +23,6 @@ import (
 	"github.com/hashicorp/terraform/plans"
 	"github.com/hashicorp/terraform/states/statemgr"
 	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 

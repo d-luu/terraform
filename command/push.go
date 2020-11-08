@@ -3,7 +3,7 @@ package command
 import (
 	"strings"
 
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/d-luu/terraform-common/tfdiags"
 )
 
 type PushCommand struct {

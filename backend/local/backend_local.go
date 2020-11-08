@@ -6,6 +6,7 @@ import (
 	"log"
 	"sort"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/hashicorp/errwrap"
 	"github.com/hashicorp/terraform/backend"
 	"github.com/hashicorp/terraform/command/clistate"
@@ -14,7 +15,6 @@ import (
 	"github.com/hashicorp/terraform/plans/planfile"
 	"github.com/hashicorp/terraform/states/statemgr"
 	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

@@ -5,13 +5,13 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/google/go-cmp/cmp"
 	version "github.com/hashicorp/go-version"
 	"github.com/hashicorp/terraform-config-inspect/tfconfig"
 	svchost "github.com/hashicorp/terraform-svchost"
 	"github.com/hashicorp/terraform/addrs"
 	"github.com/hashicorp/terraform/internal/getproviders"
-	"github.com/hashicorp/terraform/tfdiags"
 )
 
 func TestConfigProviderRequirements(t *testing.T) {

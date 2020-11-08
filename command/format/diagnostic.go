@@ -7,10 +7,10 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hcled"
 	"github.com/hashicorp/hcl/v2/hclparse"
-	"github.com/hashicorp/terraform/tfdiags"
 	"github.com/mitchellh/colorstring"
 	wordwrap "github.com/mitchellh/go-wordwrap"
 	"github.com/zclconf/go-cty/cty"

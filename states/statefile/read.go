@@ -10,7 +10,7 @@ import (
 
 	version "github.com/hashicorp/go-version"
 
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/d-luu/terraform-common/tfdiags"
 	tfversion "github.com/hashicorp/terraform/version"
 )
 

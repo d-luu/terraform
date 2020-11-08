@@ -3,10 +3,10 @@ package backend
 import (
 	"fmt"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/terraform/configs"
 	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

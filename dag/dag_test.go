@@ -12,7 +12,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/d-luu/terraform-common/tfdiags"
 
 	"github.com/hashicorp/terraform/helper/logging"
 )

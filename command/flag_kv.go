@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/tfdiags"
 )
 
 // FlagStringKV is a flag.Value implementation for parsing user variables

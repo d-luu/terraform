@@ -3,9 +3,9 @@ package addrs
 import (
 	"fmt"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
-	"github.com/hashicorp/terraform/tfdiags"
 )
 
 // Reference describes a reference to an address with source location

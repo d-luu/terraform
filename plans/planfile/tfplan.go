@@ -7,11 +7,11 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
+	"github.com/d-luu/terraform-common/tfdiags"
 	"github.com/hashicorp/terraform/addrs"
 	"github.com/hashicorp/terraform/plans"
 	"github.com/hashicorp/terraform/plans/internal/planproto"
 	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/tfdiags"
 	"github.com/hashicorp/terraform/version"
 )
 
